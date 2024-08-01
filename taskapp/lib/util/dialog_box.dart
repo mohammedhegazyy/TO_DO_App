@@ -30,10 +30,10 @@ class DialogBox extends StatelessWidget {
             TextField(
               controller: controller,
               decoration: const InputDecoration(
-                border: OutlineInputBorder(),
-                hintText: "Add a new task",
-              ),
-              style: const TextStyle(fontSize: 15),
+                  border: OutlineInputBorder(),
+                  hintText: "Add a new task",
+                  hintStyle: TextStyle(color: Colors.black)),
+              style: const TextStyle(fontSize: 20, color: Colors.black),
             ),
 
             // buttons -> save + cancel
