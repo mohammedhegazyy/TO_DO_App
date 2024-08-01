@@ -4,7 +4,9 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
-A brief description of what this project does and who it's for.
+The My Task App is a user-friendly task management application built with Flutter. It allows users to efficiently organize their tasks with features like adding new tasks, editing existing ones, and deleting completed tasks.
+The app supports a dark mode for better visibility in low-light environments and provides an intuitive drag-and-drop interface for reordering tasks. 
+Ideal for individuals seeking a simple yet powerful tool to manage their to-do lists and stay organized.
 
 ## Features
 - **Add New Tasks**: Easily add tasks to your list.
