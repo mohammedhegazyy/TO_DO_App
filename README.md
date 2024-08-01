@@ -23,3 +23,20 @@ A brief description of what this project does and who it's for.
    ```sh
    [git clone [(https://github.com/your_username/project_name.git](https://github.com/mohammedhegazyy/TO_DO_App.git)]
 
+2. Navigate to the Project Directory
+    ```sh
+    cd TO_DO_App
+    
+3. Install Dependencies
+    ```sh
+    flutter pub get
+4. Run the App
+   ```sh
+   flutter run
+
+   
+## Contact Info
+**Name**: Mohammed Hegazy  
+**Email**: [Mohammedhegazy655@gmail.com](mailto:Mohammedhegazy655@gmail.com)
+
+
