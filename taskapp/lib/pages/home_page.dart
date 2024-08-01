@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:adaptive_theme/adaptive_theme.dart';
 import '../data/database.dart';
 import '../util/dialog_box.dart';
 import '../util/todo_tile.dart';
@@ -14,6 +15,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final _myBox = Hive.box('mybox');
   ToDoDataBase db = ToDoDataBase();
+  final _controller = TextEditingController();
 
   @override
   void initState() {
@@ -24,8 +26,6 @@ class _HomePageState extends State<HomePage> {
     }
     super.initState();
   }
-
-  final _controller = TextEditingController();
 
   void checkBoxChanged(bool? value, int index) {
     setState(() {
@@ -100,23 +100,30 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.yellow[300],
       appBar: AppBar(
         title: const Text('My Tasks'),
         elevation: 0,
         leading: const Icon(Icons.task_rounded),
         backgroundColor: Colors.transparent,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.brightness_6),
+            onPressed: () {
+              AdaptiveTheme.of(context).toggleThemeMode();
+            },
+          ),
+        ],
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: createNewTask,
+        backgroundColor: Colors.yellow[200],
         child: const Icon(Icons.add),
       ),
       body: ReorderableListView(
         onReorder: onReorder,
         children: List.generate(db.toDoList.length, (index) {
           return ToDoTile(
-            key: ValueKey(
-                db.toDoList[index][0]), // Useing a unique key for reordering
+            key: ValueKey(db.toDoList[index][0]),
             taskName: db.toDoList[index][0],
             taskCompleted: db.toDoList[index][1],
             onChanged: (value) => checkBoxChanged(value, index),
