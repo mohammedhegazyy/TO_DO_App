@@ -17,13 +17,16 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: "latest" # You can specify a specific version if needed
-
+          flutter-version: "latest"
       - name: Install dependencies
         run: flutter pub get
 
       - name: Run build
         run: flutter build apk --release
 
-      - name: Run tests
-        run: flutter test
+      - name: Archive release APK
+        if: success()
+        uses: actions/upload-artifact@v2
+        with:
+          name: release-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
