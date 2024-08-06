@@ -23,7 +23,7 @@ Ideal for individuals seeking a simple yet powerful tool to manage their to-do l
 ## Installation
 1. Clone the repo
    ```sh
-   [git clone [(https://github.com/your_username/project_name.git](https://github.com/mohammedhegazyy/TO_DO_App.git)]
+   [git clone https://github.com/mohammedhegazyy/TO_DO_App.git]
 
 2. Navigate to the Project Directory
     ```sh
