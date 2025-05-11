@@ -15,7 +15,7 @@ Ideal for individuals seeking a simple yet powerful tool to manage their to-do l
 - **Dark Mode**: Switch to a dark theme for comfortable viewing.
 - **Reorder Tasks by Drag and Drop**: Organize tasks by dragging and dropping them.
 
-## App UI Screenshot
+## App Screenshot
 
 ![My Task App](https://private-user-images.githubusercontent.com/102255891/354158949-50942aa2-3ab7-4795-9705-8177978289c9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjQ2NDE4NjksIm5iZiI6MTcyNDY0MTU2OSwicGF0aCI6Ii8xMDIyNTU4OTEvMzU0MTU4OTQ5LTUwOTQyYWEyLTNhYjctNDc5NS05NzA1LTgxNzc5NzgyODljOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwODI2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDgyNlQwMzA2MDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wMDk4NGVjMjVjNGFiYmUxYTc1MzVhOTk2Mzg2ODMwZWJmZmQ4NzVhM2Y3YWM3OWYwN2ZhMDU5NmE0NTAyNGUwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.zzm3uLTA9FkAsBwIhO_Kw142guQEP0a7VvQAN8SQPCA) 
 
